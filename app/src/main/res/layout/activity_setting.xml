@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".view.activity.settings.SettingActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/img_language"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/language_icon"
+            app:srcCompat="@drawable/ic_baseline_language_24" />
+
+        <TextView
+            android:id="@+id/tv_language"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/language_setting"
+            android:layout_gravity="center"
+            android:layout_weight="0.8"/>
+
+        <Button
+            android:id="@+id/button_language"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="@string/change"
+            android:backgroundTint="@color/aqua_sky"
+            android:textColor="@color/black"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

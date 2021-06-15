@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Fragment Kosong</string>
+    <string name="image_preview">Ulasan Gambar</string>
+    <string name="title">Judul Film</string>
+    <string name="description">Deskripsi</string>
+    <string name="genre">Genre</string>
+    <string name="released">Tanggal Rilis</string>
+    <string name="movie">Film</string>
+    <string name="tvShow">Acara TV</string>
+    <string name="settings">Pengaturan</string>
+    <string name="change">Ganti</string>
+    <string name="language_setting">Pengaturan Bahasa</string>
+    <string name="language_icon">Ikon Bahasa</string>
+    <string name="setting">Pengaturan</string>
+</resources>

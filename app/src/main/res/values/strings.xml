@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="title">Title Movie</string>
+    <string name="description">Description</string>
+    <string name="genre">Genre</string>
+    <string name="released">Released</string>
+    <string name="movie">Movie</string>
+    <string name="tvShow">TV Show</string>
+    <string name="settings">Settings</string>
+    <string name="change">Change</string>
+    <string name="language_setting">Language Setting</string>
+    <string name="language_icon">language icon</string>
+    <string name="setting">Setting</string>
+</resources>
